@@ -185,10 +185,6 @@ createRoot(document.getElementById('root')).render(/*#__PURE__*/ _jsx(App, {}));
 
 ### 3. swc简易打包
 
-截止 2024-12-4日 目前该功能鸡肋 不推荐使用 了解即可
-
-目前swc打包只能支持cjs 未来才能支持esm 比较鸡肋 其次就是参数只能entry output暂无其他参数
-
 创建配置文件spack.config.js
 
 编写以下代码执行 npx spack打包
